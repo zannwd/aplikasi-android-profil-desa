@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Geografis Desa Rumbuk Timur"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Deskripsi Umum -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desa Rumbuk Timur memiliki luas wilayah 284,57 Ha dengan lahan produktif 3.123 Ha yang meliputi:"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Tabel Tata Guna Tanah"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:background="#FFFFFF"
+            android:layout_margin="16dp"
+            android:padding="8dp"
+            android:elevation="0dp">
+
+            <!-- Header Tabel -->
+            <TableRow android:background="#009990">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="1" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tata Guna Tanah"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="3" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Luas Tanah (Ha)"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="2" />
+            </TableRow>
+
+            <!-- Baris Data -->
+            <TableRow>
+                <TextView android:layout_width="0dp" android:layout_weight="1" android:padding="8dp" android:text="1" android:gravity="center" />
+                <TextView android:layout_width="0dp" android:layout_weight="3" android:padding="8dp" android:text="Tanah Pemukiman/Perkampungan" />
+                <TextView android:layout_width="0dp" android:layout_weight="2" android:padding="8dp" android:text="177,00 Ha" android:gravity="center" />
+            </TableRow>
+            <TableRow android:background="#F8FAFC">
+                <TextView android:layout_width="0dp" android:layout_weight="1" android:padding="8dp" android:text="2" android:gravity="center" />
+                <TextView android:layout_width="0dp" android:layout_weight="3" android:padding="8dp" android:text="Tanah Sawah Irigasi Teknis" />
+                <TextView android:layout_width="0dp" android:layout_weight="2" android:padding="8dp" android:text="1.905 Ha" android:gravity="center" />
+            </TableRow>
+            <TableRow>
+                <TextView android:layout_width="0dp" android:layout_weight="1" android:padding="8dp" android:text="3" android:gravity="center" />
+                <TextView android:layout_width="0dp" android:layout_weight="3" android:padding="8dp" android:text="Tanah Sawah Irigasi Setengah Teknis" />
+                <TextView android:layout_width="0dp" android:layout_weight="2" android:padding="8dp" android:text="1.284,48 Ha" android:gravity="center" />
+            </TableRow>
+            <TableRow android:background="#F8FAFC">
+                <TextView android:layout_width="0dp" android:layout_weight="1" android:padding="8dp" android:text="4" android:gravity="center" />
+                <TextView android:layout_width="0dp" android:layout_weight="3" android:padding="8dp" android:text="Tanah Sawah Tadah Hujan" />
+                <TextView android:layout_width="0dp" android:layout_weight="2" android:padding="8dp" android:text="0 Ha" android:gravity="center" />
+            </TableRow>
+            <TableRow>
+                <TextView android:layout_width="0dp" android:layout_weight="1" android:padding="8dp" android:text="5" android:gravity="center" />
+                <TextView android:layout_width="0dp" android:layout_weight="3" android:padding="8dp" android:text="Tanah Tegalan" />
+                <TextView android:layout_width="0dp" android:layout_weight="2" android:padding="8dp" android:text="2.090 Ha" android:gravity="center" />
+            </TableRow>
+            <TableRow android:background="#F8FAFC">
+                <TextView android:layout_width="0dp" android:layout_weight="1" android:padding="8dp" android:text="6" android:gravity="center" />
+                <TextView android:layout_width="0dp" android:layout_weight="3" android:padding="8dp" android:text="Tanah Jalan, Sungai, Kuburan, dll" />
+                <TextView android:layout_width="0dp" android:layout_weight="2" android:padding="8dp" android:text="22.380 Ha" android:gravity="center" />
+            </TableRow>
+        </TableLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Tabel Jumlah RT dan RW"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:background="#FFFFFF"
+            android:layout_margin="16dp"
+            android:padding="8dp"
+            android:elevation="0dp">
+
+            <!-- Header Tabel -->
+            <TableRow android:background="#009990">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Dusun"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="3" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jumlah RT/RW"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="2" />
+            </TableRow>
+
+            <!-- Baris Data -->
+            <TableRow>
+                <TextView android:padding="8dp" android:text="1" android:gravity="center" android:layout_weight="1" />
+                <TextView android:padding="8dp" android:text="Siren" android:layout_weight="3" />
+                <TextView android:padding="8dp" android:text="05 / 00" android:gravity="center" android:layout_weight="2" />
+            </TableRow>
+            <TableRow android:background="#F8FAFC">
+                <TextView android:padding="8dp" android:text="2" android:gravity="center" android:layout_weight="1" />
+                <TextView android:padding="8dp" android:text="Letok" android:layout_weight="3" />
+                <TextView android:padding="8dp" android:text="06 / 00" android:gravity="center" android:layout_weight="2" />
+            </TableRow>
+            <TableRow>
+                <TextView android:padding="8dp" android:text="2" android:gravity="center" android:layout_weight="1" />
+                <TextView android:padding="8dp" android:text="Gelumpang" android:layout_weight="3" />
+                <TextView android:padding="8dp" android:text="05 / 00" android:gravity="center" android:layout_weight="2" />
+            </TableRow>
+            <TableRow android:background="#F8FAFC">
+                <TextView android:padding="8dp" android:text="2" android:gravity="center" android:layout_weight="1" />
+                <TextView android:padding="8dp" android:text="Embung Sempait" android:layout_weight="3" />
+                <TextView android:padding="8dp" android:text="05 / 00" android:gravity="center" android:layout_weight="2" />
+            </TableRow>
+            <TableRow>
+                <TextView android:padding="8dp" android:text="2" android:gravity="center" android:layout_weight="1" />
+                <TextView android:padding="8dp" android:text="Siren Penua" android:layout_weight="3" />
+                <TextView android:padding="8dp" android:text="-" android:gravity="center" android:layout_weight="2" />
+            </TableRow>
+            <TableRow android:background="#F8FAFC">
+                <TextView android:padding="8dp" android:text="2" android:gravity="center" android:layout_weight="1" />
+                <TextView android:padding="8dp" android:text="Siren Bak Bagek" android:layout_weight="3" />
+                <TextView android:padding="8dp" android:text="-" android:gravity="center" android:layout_weight="2" />
+            </TableRow>
+            <!-- Tambahkan baris lainnya sesuai data -->
+        </TableLayout>
+
+
+        <!-- Deskripsi Letak Geografis -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desa Rumbuk Timur berada di sebelah Timur Ibu Kota Kecamatan Sakra, dengan jarak ke Ibu Kota Kecamatan sekitar 3 km dan ke Ibu Kota Kabupaten Lombok Timur (Selong) sekitar 7 km. Batas-batas wilayah Desa Rumbuk Timur adalah sebagai berikut:\n\n- Sebelah Utara: Desa Rumbuk dan Desa Keselet\n- Sebelah Timur: Desa Songak\n- Sebelah Selatan: Desa Montong Tangi\n- Sebelah Barat: Desa Rumbuk"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</ScrollView>

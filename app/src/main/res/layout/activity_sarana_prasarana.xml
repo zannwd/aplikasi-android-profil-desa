@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sarana dan Prasarana Desa Rumbuk Timur"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Deskripsi Sarana dan Prasarana -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Desa Rumbuk Timur memiliki sarana dan prasarana yang mencakup berbagai bidang untuk mendukung kehidupan masyarakat. Berikut adalah rincian sarana dan prasarana di desa ini:"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Sarana dan Prasarana Pemerintahan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="1. Sarana dan Prasarana Pemerintahan\n\nSarana dan prasarana pemerintahan di Desa Rumbuk Timur terdiri dari kantor desa yang terletak di Dusun Gelumpang dengan perangkat desa lengkap. Setiap dusun memiliki kepala dusun dan 21 Rukun Tetangga (RT)."
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Sarana dan Prasarana Pendidikan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="2. Sarana dan Prasarana Pendidikan\n\nDesa Rumbuk Timur memiliki sekolah mulai dari PAUD hingga SMA/Sederajat yang tersebar di 4 dusun. Berikut adalah daftar sarana pendidikan di desa:"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Tabel Sarana Prasarana Pendidikan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Berdasarkan data umum desa, sarana dan prasarana pendidikan di wilayah ini mencakup berbagai jenjang pendidikan dengan kondisi yang umumnya baik. Untuk pendidikan anak usia dini (PAUD), terdapat lembaga seperti Mandiri, Pelita Hati, Bunda Rahmawati, dan Cendekia yang tersebar di Dusun Siren, Letok, Embung Sempait, dan Dasan Busur. Pada jenjang taman kanak-kanak (TK) atau Raudhatul Athfal (RA), terdapat TK Nurul Hidayah yang berlokasi di Dusun Gelumpang. Sementara itu, untuk tingkat sekolah dasar (SD) atau Madrasah Ibtidaiyah (MI), tersedia SDN 1, 3, dan 5 Rumbuk serta MI NW Rumbuk yang tersebar di Dusun Siren, Letok, Gelumpang, dan Siren. Pada jenjang pendidikan menengah pertama (SMP) atau sederajat, tersedia SMP 2 Sakra dan MTs NW Rumbuk yang berlokasi di Dusun Siren. Sedangkan untuk jenjang pendidikan menengah atas (SMA) atau sederajat, terdapat SMKN 3 Selong dan MA NW Rumbuk yang juga berlokasi di Dusun Siren. Semua sarana pendidikan ini berada dalam kondisi baik, sehingga dapat mendukung proses pembelajaran bagi masyarakat setempat."
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+
+        <!-- Sarana dan Prasarana Kesehatan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="3. Sarana dan Prasarana Kesehatan\n\nDesa ini memiliki Polindes dengan 1 bidan desa dan 5 Pos Pelayanan Posyandu yang tersebar di berbagai dusun."
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+
+        <!-- Tabel Sarana Prasarana Keagamaan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="4. Desa Rumbuk Timur memiliki sarana dan prasarana keagamaan yang tersebar di seluruh dusunnya, mencakup enam masjid, delapan mushola, dan beberapa Taman Pendidikan Qur'an (TPQ). Kondisi fasilitas ini bervariasi, mulai dari baik hingga dalam tahap pembangunan atau renovasi. Terdapat enam masjid utama, yaitu Masjid At-Taqwa di RT 01 Dusun Siren yang dalam kondisi baik; Masjid Nur At-Taqwa di RT 04 Dusun Gelumpang yang memerlukan renovasi; Masjid Baitussalam di RT 02 Dusun Gelumpang yang sedang dalam tahap pembangunan lanjutan; Masjid Nurul Yaqin di RT 02 Dusun Embung Sempait yang tengah direnovasi; Masjid Nurul Hidayah di RT 05 Dusun Embung Sempait yang juga dalam tahap pembangunan lanjutan; dan Masjid Al-Islah di RT 02 Dusun Letok yang sedang dibangun. Selain masjid, terdapat delapan mushola dengan kondisi baik, yaitu Mushola Baiturrahman di RT 03 Dusun Siren, Mushola Al-Ikhlas di RT 05 Dusun Siren, Mushola Nurul Hidayah di RT 05 Dusun Gelumpang, Mushola Islam Hul Ummah di RT 01 Dusun Gelumpang, Mushola Nurul Iman di RT 04 Dusun Embung Sempait, Mushola Nurul Hidayah di RT 04 Dusun Embung Sempait, Mushola Nurul Hafifah di RT 01 Dusun Letok, dan Mushola Nurul Iman di RT 03 Dusun Letok. TPQ (Taman Pendidikan Qur’an) juga menjadi bagian penting dari sarana keagamaan di desa ini, dengan fasilitas yang tersebar di mushola dan beberapa rumah warga. Beberapa TPQ dalam kondisi baik, seperti TPQ Baiturrahman di Mushola Baiturrahman, TPQ Nurul Hidayah di Mushola Nurul Hidayah, TPQ Islam Hul Ummah di Mushola Islam Hul Ummah, dan TPQ Al-Ikhlas di Mushola Al-Ikhlas. Namun, terdapat beberapa TPQ dengan kondisi sedang, seperti TPQ Al-Palah di Rumah Amaq Rudi, TPQ At-Taqwa di Rumah Muslimin, dan TPQ Nurul Iman di Mushola Nurul Iman Letok. Secara keseluruhan, sarana dan prasarana keagamaan di Desa Rumbuk Timur mendukung kebutuhan spiritual masyarakat meskipun sebagian masih memerlukan peningkatan kondisi atau penyelesaian pembangunan."
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+
+        <!-- Sarana dan Prasarana Umum -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="5. Sarana dan Prasarana Umum\n\nDesa ini memiliki 4 MCK umum di setiap dusun, meskipun beberapa jalan masih berupa tanah. Pembangunan jalan dan MCK umum menjadi bagian dari RPJM-Desa."
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

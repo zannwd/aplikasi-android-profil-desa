@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sejarah Desa Rumbuk Timur"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Konten Sejarah -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Desa Rumbuk Timur adalah salah satu bagian jajaran Pemerintahan yang ada di Kabupaten Lombok Timur Kecamatan Sakra. Desa ini merupakan hasil pemekaran dari desa induknya, Desa Rumbuk, pada tanggal 29 Desember 2009 berdasarkan peraturan Bupati Lombok Timur.\n\nSetelah dimekarkan, Desa Persiapan Rumbuk Timur membawahi empat kekadusan, yaitu Dusun Siren, Dusun Letok, Dusun Gelumpang, dan Dusun Embung Sempait. Dalam perjalanannya, penentuan lokasi Kantor Desa Rumbuk Timur menjadi tantangan besar. Setelah musyawarah panjang, lokasi kantor desa akhirnya diputuskan berada di Dusun Gelumpang karena posisi strategisnya di tengah-tengah wilayah desa.\n\nMasyarakat Desa Rumbuk Timur memiliki keragaman budaya. Dusun Siren mayoritas dihuni oleh keturunan Sumbawa dengan bahasa sehari-hari Bahasa Sumbawa, sementara dusun lainnya dihuni oleh keturunan Sasak Selaparang. Meskipun berbeda asal usul, masyarakat tetap hidup rukun tanpa konflik.\n\nSalah satu bukti sejarah yang dapat ditunjukkan adalah Masjid AT-TAQWA di Dusun Siren, yang merupakan masjid pertama di wilayah ini. Keberadaan masjid ini menandai pesatnya perkembangan agama Islam.\n\nMayoritas penduduk Desa Rumbuk Timur bermata pencaharian sebagai petani, buruh tani, dan pegawai negeri sipil. Dalam bidang pemerintahan, desa ini awalnya dipimpin oleh Pejabat Sementara (Pjs) yang ditunjuk langsung oleh Bupati Lombok Timur. Kepala Desa pertama adalah ATMA BUDI, SE, dengan beberapa perangkat desa lainnya.\n\nSetelah dua tahun berjalannya pemerintahan administratif, Desa Rumbuk Timur menjadi desa definitif. Berikut adalah silsilah kepemimpinan Desa Rumbuk Timur:\n\n1. ATMA BUDI, SE (2009 - 2011) - Pjs\n2. JUMANEP (2011 - 2012) - Plt\n3. SHALAHUDDIN (2012 - 2018) - Definitif\n4. SHALAHUDDIN (2018 - 2024) - Definitif"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+    </LinearLayout>
+</ScrollView>

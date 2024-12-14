@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Judul -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perekonomian Desa Rumbuk Timur"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Penduduk -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Jumlah penduduk Desa Rumbuk Timur sebanyak 5.464 jiwa dengan penduduk usia produktif sebanyak 4.052 jiwa. Penduduk yang dikategorikan miskin sebanyak 552 KK atau 2.519 jiwa. Mata pencaharian sebagian besar penduduk adalah petani, buruh tani, pedagang, dan Pegawai Negeri Sipil. Hasil produksi ekonomis desa yang menonjol adalah padi dan tembakau/palawija."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Tabel Jumlah Penduduk -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sumber Mata Pencaharian"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Mengenai mata pencaharian penduduk, sebagian besar penduduk Desa Rumbuk Timur bekerja sebagai petani, dengan jumlah 1.240 orang. Selain itu, 259 orang bekerja sebagai pedagang, sementara 967 orang sebagai buruh tani. Beberapa penduduk lainnya bekerja sebagai PNS (123 orang), TNI dan POLRI (15 orang), pensiunan (85 orang), buruh bangunan (112 orang), tukang batu (13 orang), tukang kayu (61 orang), sopir (15 orang). ), guru negeri (102 orang), tukang gali (10 orang), guru swasta (322 orang), tukang ojek (68 orang), serta buruh imigran (210 orang). Sektor lain-lain mencakup 539 orang, sementara 303 orang tercatat belum bekerja dan 794 orang tidak bekerja."
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+
+        <!-- Tabel Mata Pencaharian -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Penduduk"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Di Desa Rumbuk Timur, jumlah penduduk di setiap dusun terbagi sebagai berikut. Dusun Siren memiliki 5 RT dan 445 KK, dengan jumlah 632 jiwa laki-laki dan 709 jiwa perempuan, sehingga jumlah jiwa mencapai 1.341 orang. Dusun Letok yang terdiri dari 6 RT dan 464 KK, mencatat 720 jiwa laki-laki dan 719 jiwa perempuan, dengan jumlah jiwa 1.439 orang. Di Dusun Gelumpang terdapat 5 RT dan 380 KK, dengan jumlah jiwa laki-laki 613 orang dan perempuan 629 orang, sehingga total jiwa di dusun ini adalah 1.242 orang. Sedangkan Dusun Embung Sempait memiliki 5 RT dan 362 KK, dengan jumlah 614 jiwa laki-laki dan 617 jiwa perempuan, sehingga total jumlah jiwa 1.231 orang. Secara keseluruhan, desa ini memiliki 21 RT, 1.651 KK, dan jumlah jiwa 5.253 orang."
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
